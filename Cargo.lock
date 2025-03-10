@@ -3446,6 +3446,7 @@ dependencies = [
 name = "scuffle-workspace-hack"
 version = "0.1.0"
 dependencies = [
+ "aho-corasick",
  "axum 0.8.1",
  "bitflags 2.9.0",
  "byteorder",
@@ -3460,6 +3461,7 @@ dependencies = [
  "digest",
  "either",
  "fastrand",
+ "form_urlencoded",
  "futures",
  "futures-channel",
  "futures-core",
@@ -3476,6 +3478,7 @@ dependencies = [
  "hyper",
  "hyper-util",
  "insta",
+ "itertools 0.13.0",
  "libc",
  "log",
  "memchr",
@@ -3485,6 +3488,8 @@ dependencies = [
  "percent-encoding",
  "prettyplease",
  "proc-macro2",
+ "prost 0.13.5",
+ "prost-types 0.13.5",
  "quinn",
  "quinn-proto",
  "quinn-udp",
@@ -3497,9 +3502,11 @@ dependencies = [
  "rustls",
  "rustls-webpki",
  "rusty_ffmpeg",
+ "semver",
  "serde",
  "serde_json",
  "smallvec",
+ "socket2",
  "stable_deref_trait",
  "syn",
  "sync_wrapper",
@@ -3513,6 +3520,7 @@ dependencies = [
  "tracing-core",
  "tracing-log",
  "tracing-subscriber",
+ "url",
  "uuid",
  "windows-sys 0.52.0",
  "windows-sys 0.59.0",
@@ -3865,6 +3873,7 @@ dependencies = [
  "prost-types 0.13.5",
  "ryu",
  "schemars",
+ "scuffle-workspace-hack",
  "serde",
  "serde_json",
  "tonic",
@@ -3878,6 +3887,7 @@ dependencies = [
  "oas3",
  "prost 0.13.5",
  "prost-reflect",
+ "scuffle-workspace-hack",
  "tinc-pb",
  "tonic-build",
 ]
@@ -3889,6 +3899,7 @@ dependencies = [
  "prost 0.13.5",
  "prost-build 0.13.5",
  "prost-types 0.13.5",
+ "scuffle-workspace-hack",
 ]
 
 [[package]]
