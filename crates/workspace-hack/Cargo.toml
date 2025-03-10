@@ -81,9 +81,6 @@ allowed_external_types = [
 
   # Windows-specific
   "windows_sys::*",
-
-  # workspace-specific (safe to expose within the same ecosystem)
-  "scuffle_workspace_hack::*",
 ]
 
 # The parts of the file between the BEGIN HAKARI SECTION and END HAKARI SECTION comments

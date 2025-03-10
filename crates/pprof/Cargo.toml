@@ -27,7 +27,4 @@ allowed_external_types = [
   "pprof::*",
   "flate2::*",
   "thiserror::*",
-
-  # workspace-specific (safe to expose within the same ecosystem)
-  "scuffle_workspace_hack::*",
 ]
